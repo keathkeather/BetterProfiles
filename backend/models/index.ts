@@ -44,6 +44,4 @@ Object.keys(db).forEach((modelName) => {
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
-console.log(db); // Check if the `User` model is in the db object
-
 export default db;

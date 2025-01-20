@@ -1,5 +1,3 @@
-import { Json } from 'sequelize/types/utils';
-
 export interface UserDetailsDto {
   _USER_ID: string;
   _ADDRESS: string;

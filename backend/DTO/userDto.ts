@@ -1,7 +1,5 @@
-// src/dto/CreateUserDto.ts
-export interface CreateUserDto {
+export interface userDTO {
   _USERNAME: string;
   _EMAIL: string;
   _PASSWORD: string;
 }
-    
