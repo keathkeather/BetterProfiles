@@ -2,7 +2,7 @@
 
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
-  async up (queryInterface, Sequelize) {
+  async up(queryInterface, Sequelize) {
     await queryInterface.createTable('UserDetails', {
       id: {
         type: Sequelize.UUID,
@@ -16,6 +16,7 @@ module.exports = {
           key: '_USER_ID',
         },
         allowNull: false,
+        onUpdate: 'CASCADE',
         onDelete: 'CASCADE',
       },
       _ADDRESS: Sequelize.STRING,
@@ -34,7 +35,7 @@ module.exports = {
       _HATCHIT_PASSIONS: Sequelize.TEXT,
       _CUSTOM_INFORMATION: {
         type: Sequelize.JSON,
-        allowNull: true, 
+        allowNull: true,
       },
       createdAt: {
         type: Sequelize.DATE,
@@ -49,7 +50,7 @@ module.exports = {
     });
   },
 
-  async down (queryInterface, Sequelize) {
+  async down(queryInterface, Sequelize) {
     await queryInterface.dropTable('UserDetails');
-  }
+  },
 };
