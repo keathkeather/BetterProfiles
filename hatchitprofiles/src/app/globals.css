@@ -13,7 +13,24 @@
     --foreground: #ededed;
   }
 }
-
+@font-face {
+  font-family: 'mokoto';
+  src: url('/public/font/mokoto.ttf')format('truetype');
+}
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'mokoto', Arial, Helvetica, sans-serif;
+}
+
+.font-mokoto {
+  font-family: 'mokoto', Arial, Helvetica, sans-serif;
+}
+
+.custom-button-outline-orange {
+  border-color: #FA7422;
+  color: #FA7422;
+}
+
+.custom-button-outline-orange:hover {
+  background-color: #FA7422;
+  color: white;
 }

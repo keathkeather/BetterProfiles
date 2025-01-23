@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 export const userDetails = [
   {
     id: uuidv4(),
-    _USER_ID: '5a0271d6-bdbb-446b-8da8-0b3c495e555d', // Replace with actual User ID
+    _USER_ID: '1b9a08a6-f9bb-4ce5-9c5e-e2d7261cf642', // Replace with actual User ID
     _ADDRESS: '1234 Elm Street, Springfield',
     _BIRTHDATE: new Date('1995-05-15'),
     _CONTACTNUMBER: '+1234567890',
@@ -27,7 +27,7 @@ export const userDetails = [
   },
   {
     id: uuidv4(),
-    _USER_ID: 'e91bbd2b-a686-42d2-8e9a-4c6feb16d6da', // Replace with actual User ID
+    _USER_ID: '1b9a08a6-f9bb-4ce5-9c5e-e2d7261cf642', // Replace with actual User ID
     _ADDRESS: '5678 Oak Avenue, Metropolis',
     _BIRTHDATE: new Date('1990-12-20'),
     _CONTACTNUMBER: '+1122334455',

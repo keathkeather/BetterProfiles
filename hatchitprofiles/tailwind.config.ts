@@ -11,6 +11,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        mainOrange: "#FA7422",
+      },
+      fontFamily: {
+        mokoto: ['mokoto', 'sans-serif'],
       },
     },
   },

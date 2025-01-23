@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import routes from './routes'; // Import the routes folder
 import db from './models';
 import { userDetails } from './seeders/userdetails';
+import cors from 'cors'
 // Load environment variables from .env file
 dotenv.config();
 
@@ -17,6 +18,7 @@ const createProjects = () => {
 };
 
 // createProjects();
+app.use(cors());
 db.sequelize.sync().then(() => {
   app.listen(PORT, () => {
     console.log(`App listening on port ${3000}`);

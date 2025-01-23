@@ -9,12 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ai-sdk/react": "^1.1.1",
+    "@reduxjs/toolkit": "^2.5.0",
+    "@types/js-cookie": "^3.0.6",
+    "axios": "^1.7.9",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
     "next": "15.1.4",
     "primeflex": "^3.3.1",
     "primeicons": "^7.0.0",
     "primereact": "^10.9.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "redux": "^5.0.1"
   },
   "devDependencies": {
     "@types/node": "^20",
